@@ -16,9 +16,9 @@ export default function App({ Component, pageProps }: AppProps) {
     >
       <NextUIProvider>
         <Head>
-          <meta name="description" content="Moments app by Caio Basso" />
+          <meta name="description" content="Store your favorite moments" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/icon.png" />
         </Head>
         <Component {...pageProps} />
       </NextUIProvider>
